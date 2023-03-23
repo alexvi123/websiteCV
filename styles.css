@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    text-align: center;
+    color:#40514E;
+    font-family: 'Merriweather', serif;
+    background-color: #F5E6E6;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.625rem;
+    color:#66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:#66BFBF;
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;
+}
+h5{
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;
+}
+a{
+    color:#11999E;
+    text-decoration: none;
+    font-size: 20px;
+}
+.top-container {
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top: 100px;
+
+}
+.initial-greeting{
+    color:#40514E;
+    width:50%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 1rem;
+}
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+    padding: 2.5rem;
+    background-color: #66BFBF;
+}
+
+.underline_text{
+    text-decoration: underline ;
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+
+.poza-profil{
+    width:250px;
+    height:250px;
+    border-radius:100%;
+}
+
+
+.AI{
+    border-radius: 100%;
+    width:27%;
+    float: left;
+    margin-right: 30px;
+}
+
+.webDev{
+    width:25%;
+    border-radius: 100%;
+    float:right;
+    margin-left:30px;
+}
+
+.oop_picture{
+    width:25%;
+    border-radius: 100%;
+    float:left;
+    margin-right: 30px;
+}
+
+.miele{
+    width:35%;
+    border-radius: 10%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row{
+    width:50%;
+    height:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me{
+    width:50%;
+    height:50%;
+    margin:100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+hr{
+    width:11rem;
+    border-top: 7px dotted gray;
+    margin: 20px auto 20px auto;
+}
+
+.footer-link{
+    margin-top: 0.5rem;
+    padding:0.5rem;
+}
+
+.footer-link:hover{
+    color:black;
+}
+
+.btn{
+    display: inline-block;
+    padding:0.5rem;
+    border: solid;
+    border-radius:20px;
+    color:white;
+    background-color: #11cdd4;
+    text-decoration: none;
+    margin-top:35px;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.btn:hover{
+    color:black;
+    text-decoration-style:none;
+}
+
+.copyright{
+    padding-top: 1rem;
+    color:#EAF6F6;
+    font-size: 0.75rem;
+}
+
+
+.skill_bar{
+    width: 280px;
+    margin-left: 28px;
+    float:left;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+}
+
+.skill_bar li{
+    margin: 0 0;
+    padding: 5px;
+}
+
+.soft_skills{    width: 280px;
+    float:right;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    margin-right: 28px;}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+
+}
+
+.bar:hover{
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 8px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html_css_js{
+    width: 70%;
+    animation: html/css/js 3s;
+    margin-bottom: 0;
+}
+
+.c_cpp{
+    width: 60%;
+    animation: c/c++ 3s;
+}
+
+.linux{
+    width: 45%;
+    animation: linux 3s;
+}
+
+.python{
+    width: 75%;
+    animation: python 3s;
+}
+.oop{
+    width: 55%;
+    animation: oop 3s;
+}
+.docker_api{
+    width: 35%;
+    animation: docker/api 3s;
+}
+.arduino{
+    width: 15%;
+    animation: arduino 3s;
+}
+.data_analysis{
+    width: 40%;
+    animation: data_analysis 3s;
+}
+
+.other_activities{
+    float:center;
+    margin: 100px auto 100px auto;
+    width:50%;
+
+}
+
+.adaptability{
+    width: 100%;
+    animation: adaptability 3s;
+    margin-bottom: 0;
+}
+.teamwork{
+    width: 100%;
+    animation: teamwork 3s;
+    margin-bottom: 0;
+}
+.details_attention{
+    width: 100%;
+    animation: attention to details 3s;
+    margin-bottom: 0;
+}
+.communication{
+    width: 100%;
+    animation: communication 3s;
+    margin-bottom: 0;
+}
+.willingness{
+    width: 100%;
+    animation: willingness 3s;
+    margin-bottom: 0;
+}
+
+.time_management{
+    width: 100%;
+    animation: willingness 3s;
+    margin-bottom: 0;
+}
+
+.problem_solving{
+    width: 100%;
+    animation: willingness 3s;
+    margin-bottom: 0;
+}
+
+.critical_thinking{
+    width: 100%;
+    animation: willingness 3s;
+    margin-bottom: 0;
+}
